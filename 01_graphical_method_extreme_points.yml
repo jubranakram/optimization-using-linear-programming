@@ -1,0 +1,27 @@
+lines:
+  - title: "$5x_1 + 20x_2 \\leq 400$"
+    coefficients:
+      a: 5
+      b: 20
+      c: 400
+    color: "blue"
+  - title: "$10x_1 + 15x_2 \\leq 450$"
+    coefficients:
+      a: 10
+      b: 15
+      c: 450
+    color: "red"
+
+plots:
+  - title: "Constraint 1"
+    xlabel: "x_1"
+    ylabel: "x_2"    
+    output_filepath: "figs/graph_method_constraint_1.png"
+  - title: "Constraint 2"
+    xlabel: "x_1"
+    ylabel: "x_2"
+    output_filepath: "figs/graph_method_constraint_2.png"
+  - title: "All constraints"
+    xlabel: "x_1"
+    ylabel: "x_2"    
+    output_filepath: "figs/graph_method_all_constraints.png"
