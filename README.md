@@ -19,7 +19,7 @@ activate the environment and run the following command:
 ## Usage
  - Each example (from Youtube video playlist) has a corresponding `YAML` file for specifying input parameters. Specify the parameters corresponding to constraint in your own example(s).
  - After verifying the input parameters, run the corresponding Python file to see the results.
- - Each
+ - Figures accompanying each solution are stored as `.png` format in `figs` directory.
 
 
 ## License
